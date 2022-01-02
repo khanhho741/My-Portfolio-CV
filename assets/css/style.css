@@ -1379,7 +1379,7 @@ img {
 }
 
 #preloader {
-    background: #FFF url(/assets/img/loader1.gif) no-repeat center center;
+    background: #FFF url(./assets/img/loader1.gif) no-repeat center center;
     background-size: 15%;
     height: 100vh;
     width: 100%;
