@@ -1387,5 +1387,9 @@ img {
     z-index: 200;
 }
 
+.home__load {
+    display: none;
+}
+
 
 
