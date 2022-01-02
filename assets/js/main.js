@@ -208,7 +208,7 @@ const sr = ScrollReveal ({
 
 // HOME
 sr.reveal('.home__content grid',{})
-sr.reveal('.home__social',{delay: 200, origin:'left'})
+sr.reveal('.home__social-icon',{delay: 200,})
 sr.reveal('.home__img',{delay: 200, origin:'right'})
 sr.reveal('.home__data',{delay: 200})
 sr.reveal('.home__scroll',{interval: 200})
