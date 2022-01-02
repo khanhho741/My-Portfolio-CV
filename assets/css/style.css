@@ -1159,7 +1159,6 @@ img {
     .container {
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .body {
@@ -1376,4 +1375,18 @@ img {
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }
+
+}
+
+#preloader {
+    background: #FFF url(/assets/img/loader1.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+}
+
+.load {
+    display: none;
 }

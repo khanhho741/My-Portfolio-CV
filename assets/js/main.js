@@ -197,3 +197,83 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+// SCROLL REVEAL
+
+const sr = ScrollReveal ({
+    origin: 'top',
+    distance: '10px',
+    duration: 2000,
+    reset: true
+})
+
+// HOME
+sr.reveal('.home__content grid',{})
+sr.reveal('.home__social',{delay: 200, origin:'left'})
+sr.reveal('.home__img',{delay: 200, origin:'right'})
+sr.reveal('.home__data',{delay: 200})
+sr.reveal('.home__scroll',{interval: 200})
+
+
+// ABOUT
+sr.reveal('.about__img',{})
+sr.reveal('.about__data',{delay: 200 })
+sr.reveal('.about__info',{delay: 200 })
+sr.reveal('.about__buttons',{delay: 300 })
+
+// SKILLS
+sr.reveal('.skills__header',{delay: 200, origin: 'bottom'})
+sr.reveal('.skills__data',{delay: 300, origin: 'bottom'})
+
+// QUALIFICATION
+sr.reveal('.qualification__tabs',{delay: 200 })
+sr.reveal('.qualification__sections',{interval: 300 })
+
+// SERVICES
+sr.reveal('.services__icon',{interval: 200 })
+sr.reveal('.services__title',{interval: 200 })
+sr.reveal('.services__button',{interval: 200 })
+
+// PORTFOLIO
+sr.reveal('.portfolio__container',{delay: 200 })
+
+// PROJECT
+sr.reveal('.project__data',{interval: 200 })
+sr.reveal('.project__img',{interval: 200 })
+sr.reveal('.project__icon',{interval: 10 })
+
+// TESTIMONIAL
+sr.reveal('.testimonial__container',{interval: 200 })
+
+// CONTACT ME
+sr.reveal('.contact__information',{interval: 100, origin: 'left' })
+sr.reveal('.contact__content',{interval: 100, origin: 'right' })
+sr.reveal('.contact__button',{interval: 100, origin: 'right' })
+
+// LOADER 
+
+var loader = document.getElementById('preloader');
+
+window.addEventListener('load', function() {
+    loader.style.display = 'none'
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
